@@ -114,3 +114,5 @@ protected and passes in clear text.
 * Fixed: MSS changes on SYN packets were computed but discarded (packet accepted unmodified); `\\n` printed literally in messages; IP total length handling with trailing link-layer padding; handshake aborted the device on any junk connection.
 * The README claimed TCP sequence/ACK translation was required – it is not (see above).
 * Added: GCM additional authenticated data, replay window, directional nonce salts (explicit nonce reduced from 12 to 8 bytes), shared engine for both devices, PSK from file/env, statistics, graceful shutdown, namespace lab and automated end-to-end test, much larger unit-test suite.
+  [TEST_RESULTS.txt](https://github.com/user-attachments/files/34555468/TEST_RESULTS.txt)
+
